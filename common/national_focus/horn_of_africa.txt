@@ -1,0 +1,33 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = horn_of_africa_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			OR = {
+				original_tag = AFA
+				original_tag = ORO
+				original_tag = QEM
+				original_tag = TIG
+				original_tag = BEG
+				original_tag = HAR
+				original_tag = SID
+				original_tag = GBA
+			}
+			has_dlc = "By Blood Alone"
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1250 } 
+}

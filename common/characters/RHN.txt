@@ -1,0 +1,92 @@
+characters={
+	RHN_heinrich_bruning={
+		name=RHN_heinrich_bruning
+		portraits={
+			civilian={
+				large=GFX_portrait_Rhine_heinrich_bruning
+			}
+		}
+		country_leader={
+			ideology=social_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RHN_konrad_adenauer={
+		name=RHN_konrad_adenauer
+		portraits={
+			civilian={
+				large=GFX_Portrait_Rhine_konrad_adenauer
+			}
+		}
+		country_leader={
+			ideology=market_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RHN_placeholder={
+		name=RHN_placeholder
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_arthur_seyss-inquart
+				small=GFX_portrait_AUS_arthur_seyss-inquart_small
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_arthur_seyss-inquart
+			allowed  = {
+					original_tag  = AUS
+				}
+				traits  = {
+					prince_of_terror 
+				}
+		}
+	}
+	AUS_karl_eglseer={
+		name=AUS_karl_eglseer
+		portraits={
+			army={
+				large=GFX_portrait_AUS_karl_eglseer
+				small=GFX_portrait_AUS_karl_eglseer_small
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_mountaineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AUS_odilo_globocnik={
+		name=AUS_odilo_globocnik
+		advisor={
+			slot = army_chief
+			idea_token = AUS_odilo_globocnik
+			allowed = {
+					original_tag = AUS
+				}
+				traits = {
+					army_chief_entrenchment_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+	}
+}
