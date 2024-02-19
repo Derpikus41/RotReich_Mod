@@ -1,0 +1,40 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = GER_congress
+		icon = GFX_focus_generic_soviet_politics
+		x = 10
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			GER = {
+					country_event = {
+						id = germany.1
+					}
+			}
+		}
+	}
+}

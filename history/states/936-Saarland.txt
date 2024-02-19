@@ -1,0 +1,26 @@
+state={
+	id=936
+	name="STATE_936"
+	provinces={
+		11531 
+	}
+	resources={
+		steel=5.000
+		aluminium=2.000
+	}
+	history={
+		owner = FRA
+		add_core_of = GER
+		victory_points = {
+			11531 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+	manpower=826421
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

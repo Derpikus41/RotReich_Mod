@@ -1,0 +1,57 @@
+﻿add_namespace = germany
+# Startup event
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { # Skip
+		name = germany.1.a
+		ai_chance = { factor = 100 }
+	}
+	option = { # LOOORE
+		name = germany.1.b
+		ai_chance = { factor = 0 }
+		GER = {
+			country_event = { id = germany.2 }
+		}
+	}
+}
+
+country_event = { #startup part 2
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { # Skip numero dos
+		name = germany.2.a
+		ai_chance = { factor = 100 }
+	}
+	option = { # LOOORE V2
+		name = germany.2.b
+		ai_chance = { factor = 0 }
+		GER = {
+			country_event = { id = germany.3 }
+		}
+	}
+}
+
+country_event = { #startup part 3
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { # ok ty :D
+		name = germany.3.a
+		ai_chance = { factor = 100 }
+	}
+}

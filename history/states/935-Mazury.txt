@@ -1,0 +1,23 @@
+state={
+	id=935
+	name="STATE_935"
+	provinces={
+		3295 6347 6375 9346 9372 11386 
+	}
+	
+	history={
+	owner = POL
+		add_core_of = POL
+		victory_points = {
+			3295 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	manpower=718064
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}
